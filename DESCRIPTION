@@ -1,0 +1,14 @@
+Package: kwmatch
+Title: Match by Keyword
+Version: 0.1
+Authors: Becky West <beckymaust@gmail.com>
+Description: Matches a set of phrases in one column to its closest corresponding phrase in another column, utilizing the cosine similarity based on the tf - idf statistic.
+Depends: 
+	R (>= 3.1.0),
+	tm 
+Imports:
+	tm
+suggests:
+	knitr
+License: GLP-2
+LazyData: true
