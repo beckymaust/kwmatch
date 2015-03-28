@@ -1,7 +1,7 @@
 Match by Keyword
 ========================================================
 
-Matches a set of phrases in one column to its closest corresponding phrase in another column, utilizing the cosine similarity based on the tf - idf statistic. Note that multiple elements in "variation" may be mapped to the same element in "x". If you know in advance that the pairing should be unique, set one.to.one = TRUE.
+Matches a set of phrases in one column to its closest corresponding phrase in another column, utilizing the cosine similarity based on the tf - idf statistic. Note that multiple elements in "variation" may be mapped to the same element in "x". For a unique pairing, set one.to.one = TRUE.
 
 ## Installation
 ***
