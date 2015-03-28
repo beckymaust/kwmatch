@@ -26,8 +26,7 @@ Included in the package is a list of titles and abstracts for papers in the Open
 
 ```{r}
 set.seed(100)
-journal <- load(kwmatch.journal)
-keywordMatch(journal, journal[sample(nrow(journal)),2], one.to.one = TRUE)
+keywordMatch(journal$Title, journal[sample(nrow(journal)),2], one.to.one = TRUE)
 ```
 
 
